@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "CTDRN",
+    "slug": "CTDRN",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "CTDRN"
+}
