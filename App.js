@@ -7,9 +7,8 @@ const CleverTap = require('clevertap-react-native');
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
       <Button
-      onPress={() => CleverTap.recordEvent('Ganesh RN Test')}
+      onPress={ () => fun_recordEvent() }
       title="Tap Here to push Event"
       color="#841584"
       />
@@ -17,6 +16,17 @@ export default function App() {
     </View>
   );
 }
+
+fun_recordEvent = () => {
+  CleverTap.recordEvent('RN Test2');
+  create_NotificationChannel();
+};
+
+create_NotificationChannel = () => {
+  alert('Notification Channel Created');
+  //Creating Notification Channel
+  CleverTap.createNotificationChannel("got", "Clever Tap GOT", "CT Testing", 1, true);
+};
 
 const styles = StyleSheet.create({
   container: {
