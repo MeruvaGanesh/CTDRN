@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "RNLPCT",
+    "slug": "RNLPCT",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "org.name.RNLPCT"
+    },
+    "android": {
+      "package": "org.name.RNLPCT"
+    }
+  },
+  "name": "RNLPCT"
+}
